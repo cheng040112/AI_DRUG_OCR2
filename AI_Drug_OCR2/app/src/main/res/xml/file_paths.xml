@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 允許 FileProvider 訪問 cache 目錄 -->
+    <cache-path name="cache" path="." />
+
+    <!-- 允許訪問外部快取目錄（非必要，可視情況刪除） -->
+    <external-cache-path name="external_cache" path="." />
+
+    <!-- 允許訪問外部私有檔案目錄（非必要，可視情況刪除） -->
+    <external-files-path name="external_files" path="." />
+
+    <!-- 允許訪問內部檔案目錄（非必要，可視情況刪除） -->
+    <files-path name="files" path="." />
+</paths>
